@@ -1,0 +1,24 @@
+.hero{
+  width: 100vw;
+  height: 30vh;
+  background: linear-gradient(-45deg, var(--background-color-1), var(--background-color-2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.iconWrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  color: white;
+  width: 64px;
+  height: 64px;
+}
